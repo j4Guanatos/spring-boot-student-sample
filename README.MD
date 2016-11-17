@@ -23,7 +23,7 @@ Para todos los requests es requerido agregar los siguientes headers:
 Aquí hay un ejemplo del JSON de entrada para la operación de POST (Create), El JSON se pone en el **Content to send/Body** del request. Les recomiendo usar un plugin/complemento para enviar el request desde su navegador favorito. En Firefox uso **HttpRequester** y en Chrome uso **Postman**.
 
 
-(http://localhost:8080/student)
+[http://localhost:8080/student](http://localhost:8080/student)
 ```
 {
 	"id":"123",
@@ -45,7 +45,7 @@ Aquí hay un ejemplo del JSON de entrada para la operación de POST (Create), El
 ```
  
  Ejemplo de una operación GET:
- (http://localhost:8080/student/123)
+ [http://localhost:8080/student/123](http://localhost:8080/student)
  
  
  
