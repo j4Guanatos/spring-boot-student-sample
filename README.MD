@@ -1,7 +1,7 @@
 # spring-boot-student-sample
 
 Esta es una aplicación sencilla en *Spring Boot* que se encargará de manejar alumnos. 
-Es un REST service que hará operaciones CRUD (Create, Retrieve, Update, Delete)
+Es un REST service que hará operaciones CRUD (Create, Retrieve, Update, Delete).
 Usa una base de datos en MongoDB llamada **student**. Hay que tener el servicio de MongoDB iniciado antes de iniciar la aplicación.
 Se usaron los siguientes módulos de Spring para crear la aplicación: Spring Boot, Spring MVC y Spring Data.
 Se requiere *Maven* para generar el JAR usando el siguiente comando en la línea de comandos:
@@ -23,7 +23,7 @@ Para todos los requests es requerido agregar los siguientes headers:
 Aquí hay un ejemplo del JSON de entrada para la operación de POST (Create), El JSON se pone en el **Content to send/Body** del request. Les recomiendo usar un plugin/complemento para enviar el request desde su navegador favorito. En Firefox uso **HttpRequester** y en Chrome uso **Postman**.
 
 
-http://localhost:8080/student
+(http://localhost:8080/student)
 ```
 {
 	"id":"123",
@@ -45,7 +45,7 @@ http://localhost:8080/student
 ```
  
  Ejemplo de una operación GET:
- http://localhost:8080/student/123
+ (http://localhost:8080/student/123)
  
  
  
